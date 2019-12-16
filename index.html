@@ -1,11 +1,69 @@
-<html>
-  <head>
-    <meta charset="utf-8"/>
-    <title>Extensible Markup Modules (an XML standard)</title>
-  </head>
-  <body>
-    <p>Extensible Markup Modules - (an XML-based) replacement of both HTML and LaTeX.</p>
-    <p>Started by <a target="_blank" href="http://portonvictor.org">Victor Porton</a>.</p>
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Extensible Markup Modules (an XML standard)</title>
+  <script src="https://www.w3.org/Tools/respec/respec-w3c-common" class="remove"></script>
+  <script class='remove'>
+  "use strict";
+  // See https://github.com/w3c/respec/wiki/ for how to configure ReSpec
+  var respecConfig = {
+    "doRDFa": false,
+    "format": "markdown",
+    "githubAPI": "https://api.github.com/repos/WICG/extensible-markup",
+    "issueBase": "https://www.github.com/WICG/extensible-markup/issues/",
+    "noLegacyStyle": true,
+    "editors": [{
+        name: "Victor Porton",
+        email: "porton@narod.ru",
+        company: "none",
+        companyURL: "https://mathematics21.org",
+      },
+      // Add additional editors here.
+      // https://github.com/w3c/respec/wiki/editors
+    ],
+    "shortName": "extensible-markup",
+    "specStatus": "CG-DRAFT",
+    "subjectPrefix": "[extensible-markup]",
+    "wg": "WICG",
+    "otherLinks": [{
+      "key": "Repository",
+      "data": [{
+        "value": "We are on Github.",
+        "href": "https://github.com/WICG/extensible-markup"
+      }, {
+        "value": "File a bug.",
+        "href": "https://github.com/WICG/extensible-markup/issues"
+      }, {
+        "value": "Commit history.",
+        "href": "https://github.com/WICG/extensible-markup/commits/master"
+      }, ]
+    }],
+  };
+  </script>
+</head>
+
+<body>
+  <section id="abstract">
+    <p>
+      Extensible Markup Modules - (an XML-based) replacement of both HTML and LaTeX, with a Turing-complete syntax.
+    </p>
+  </section>
+  <section id="sotd">
+    <p>
+      This is an unofficial proposal.
+    </p>
+  </section>
+  <section id="introduction">
+    <h2>Introduction</h2>
+    <p>
+      See <a href="https://github.com/w3c/respec/wiki/User's-Guide">ReSpec's
+      user guide</a> for how to get started!
+    </p>
+  </section>
+  <section data-dfn-for="Foo">
+    <h2>About</h2>
     <p><a href="https://en.wikiversity.org/wiki/Extensible_modular_markup">See the wiki.</a></p>
     <p>Project goals:</p>
     <p>make an "extension" of XHTML that is:</p>
@@ -20,5 +78,7 @@
 coloring sources.</p>
     <p><a href="https://mathematics21.org/xml-boiler-software-automatic-transformation-of-xml-namespaces/">The software for this kind of XML processing</a> already exists.</p>
     <p>It should be standardized, because the aforementioned software is slow and we need alternative software, too.</p>
-  </body>
+  </section>
+</body>
+
 </html>
